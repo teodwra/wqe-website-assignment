@@ -1,0 +1,86 @@
+<html>
+  <!--this is the about us file-->
+  <head>
+    <title>Impact of technology</title>
+    <link rel="stylesheet" href="ethical issues css.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="nav_div">
+        <nav>
+          <div class="nav-links">
+            <h1 style="font-family: monospace; font-size: 28px">
+              Impact of Technology
+            </h1>
+            <ul>
+              <li><a href="ethical issues website.html">About Us</a></li>
+              <li>
+                <a href="computers in the workforce.html"
+                  >Computers in the workforce</a>
+              </li>
+              <li><a href="automated decision making.html">Automated Decision Making</a></li>
+              <li><a href="artificial intelligence.html">Artificial Intelligence</a></li>
+              <li><a href="environmental effects.html">Environmental Effects</a></li>
+              <li><a href="ethical issues.html">Ethical issues</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <br />
+      <div class="AUtitle">
+        <p
+          style="
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 32px;
+          "
+        >
+          <u>About Us</u><br /><br /><br />Welcome to this Ethical Issues
+          website, we are dedicated to<br />
+          educate and inform as many individuals as we can about these<br />
+          misuses of technology. We recognize the rapid advancements in<br />
+          technology bringing great opportunities and possibilities,<br />
+          however these advancements also raise critical ethical questions.
+        </p>
+      </div>
+      <div class="information">
+        <div id="circle"></div>
+      </div>
+    </div>
+    <div id="right-column">
+      <div class="forms">
+        <p style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #446A46;"><b>If you would like to receive more information about us<br> or have any further questions/feedback, please fill out the form below<b></p>
+            <form>
+              <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+                <label for="fname">First name:</label><br />
+                <input type="text" id="fname" name="fname" placeholder="Please enter your first name." required /><br />
+                <label for="lname">Last name:</label><br />
+                <input type="text" id="lname" name="lname" placeholder="Please enter your last name." required /><br />
+                <label for="email">E-mail:</label><br />
+                <input id="email" placeholder="Please enter your email." required /><br /><br />
+                <input id="subscribe" type="submit" value="Subscribe" />
+                
+                
+            </form>
+      </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nNYf6HhsgdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <script>
+            const subscribe_btn = document.getElementById('subscribe');
+            const email_input = document.getElementById('email');
+            subscribe_btn.addEventListener('click',(evt)=>{
+            let email = email_input.value;
+            if(email.length ==0){
+                alert('Please enter an email');
+            }
+            else if(email.includes('@')){
+                alert(`You have been subscribed. Thank you ${email.split('@')[0]}`);
+            }
+            else{
+                alert('Please enter a valid email');
+            }
+        });
+
+
+    </script>
+  </body>
+</html>

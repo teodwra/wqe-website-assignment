@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background: linear-gradient(to right, #82A284, #E4AEC5);
+}
+
+.myClass{
+    color: red
+}
+.btnDown{
+    color: blue;
+    background-color: red;
+}
+
+.main{
+    height: 100vh;
+    z-index: 100000;
+}
+
+nav{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+.nav-links ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: larger;
+}
+
+#nav_div {
+    background: #446A46;
+    padding: 10px;
+}
+.information{
+width: 1000px;
+height: 1000px;
+position: absolute;
+top: 50%;
+left: -3%;
+transform: translateY(-50%);
+z-index: -50;
+}
+
+#circle{
+width: 1000px;
+height: 1000px;
+position: absolute;
+top: 0%;
+left: 0;
+border-radius: 50%;
+background: #ffe9f2;
+}
+#circle > p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    left: 20%;
+    font-size: 32px;
+}
+#right-column{
+float: right;
+width: 350px;
+text-align: left;
+}
+
+.AUtitle > p{
+text-align: left 10%;
+padding-top: 40px;
+padding-left: 7px;
+z-index: 100;
+}
+
+.forms {
+    position: relative;
+    transform: translate(-50%, -1000%);
+    text-align: center;
+    z-index: 3;
+  }
+
+.forms p{
+    text-align: center;
+    padding-right: 20px;
+    transform: translate(-50%, 80%);
+    z-index: 3;
+}
+
+.forms form{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    z-index: 0;
+    text-align: center;
+   
+}
+
+iframe {
+    float: right;
+    transform: translate(20%, -120%);
+}
+

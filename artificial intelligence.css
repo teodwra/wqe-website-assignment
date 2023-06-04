@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to right,#82A284, #82A284);
+    background-size: 80% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #FFC4DD;
+    overflow-y: auto;
+    padding-bottom: 35%;
+}
+.main{
+    height: 100vh;
+    z-index: 100000;
+ 
+}
+nav{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+	font-family: monospace;
+	font-size: larger;
+}
+
+#nav_div {
+    background: #446A46;
+    padding: 10px;
+
+}
+.threatsAI{
+    width: 80%;
+    margin: 0 auto;
+}
+.oppAI{
+    width: 80%;
+    margin: 0 auto;
+}
+.exAI{
+    width: 80%;
+    margin: 0 auto;
+}
+.ulai{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    border: 5px solid #FFC4DD;
+    border-radius: 2px;
+    padding: 5px;
+}
